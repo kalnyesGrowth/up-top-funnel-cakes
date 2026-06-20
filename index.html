@@ -68,6 +68,7 @@ nav.scrolled{background:rgba(42,31,22,0.95)}
 .hero-content{position:relative;z-index:2;text-align:center;padding:0 24px;max-width:800px}
 .hero-badge{display:inline-block;background:rgba(200,133,15,0.2);padding:6px 18px;border-radius:30px;font-size:var(--text-sm);font-weight:600;color:var(--clr-primary-light);margin-bottom:20px;letter-spacing:.05em}
 .hero-content h1{color:#fff;margin-bottom:16px;text-shadow:0 2px 12px rgba(0,0,0,0.3)}
+.hero-logo{max-width:460px;width:90%;margin:0 auto 12px}
 .hero-subtitle{color:rgba(255,255,255,0.85);font-size:var(--text-lg);margin-bottom:32px;max-width:600px;margin-left:auto;margin-right:auto}
 .ghost-btn{display:inline-block;border:1.5px solid var(--clr-primary);color:var(--clr-primary-light);padding:14px 36px;border-radius:6px;font-size:var(--text-base);font-weight:700;letter-spacing:.05em;transition:all .3s;cursor:pointer}
 .ghost-btn:hover{background:var(--clr-primary);color:#fff;transform:translateY(-2px);box-shadow:0 8px 24px rgba(200,133,15,0.3)}
@@ -183,6 +184,7 @@ footer{background:var(--clr-bg-dark);color:var(--clr-text-light);padding:48px 24
   h2{font-size:var(--text-2xl)}
   h3{font-size:var(--text-xl)}
   body{font-size:15px}
+  .hero-logo{max-width:300px}
   .nav-links{display:none;position:absolute;top:100%;left:0;width:100%;background:rgba(42,24,16,0.97);flex-direction:column;padding:20px 24px;gap:16px}
   .nav-links.open{display:flex}
   .nav-toggle{display:block}
@@ -224,7 +226,7 @@ footer{background:var(--clr-bg-dark);color:var(--clr-text-light);padding:48px 24
   <canvas id="hero-canvas"></canvas>
   <div class="hero-content">
     <span class="hero-badge">Black-Owned | Est. 2021 | Clinton, MD</span>
-    <h1>Up Top Funnel Cakes</h1>
+    <h1><img src="logo.png" alt="Up Top Funnel Cakes" class="hero-logo"></h1>
     <p class="hero-subtitle">Not your ordinary funnel cakes. Signature flavors, fresh toppings, and creative combinations made to order.</p>
     <a href="#order" class="ghost-btn">Order Now</a>
   </div>
